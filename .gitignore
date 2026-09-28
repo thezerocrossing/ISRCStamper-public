@@ -1,0 +1,28 @@
+.build/
+dist/
+.DS_Store
+.swiftpm/
+*.xcodeproj
+*.zip
+*.pkg
+*.dmg
+TestFiles/
+
+# Local release tooling
+Makefile.release
+
+# Build products
+.build/
+dist/
+
+# Local tooling
+.swiftpm/
+.DS_Store
+
+# Release artifacts
+*.zip
+*.dmg
+*.pkg
+
+# Private release tooling
+Makefile.release
